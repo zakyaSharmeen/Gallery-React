@@ -24,7 +24,7 @@ function App() {
       <ImageSearch searchText={(text) => setTerm(text)} />
 
       {!isLoading && images.length === 0 && (
-        <h1 className="text-6xl text-center mx-auto mt-32">No images found.</h1>
+        <h1 className="text-6xl text-center mx-auto mt-32">No images found</h1>
       )}
 
       {isLoading ? (
